@@ -11,8 +11,8 @@ public class BankAccountApp {
 		
 		
 		// Read a CSV File then create new accounts based on that data
-		String file = "C:\\Users\\Cookie\\myworkspace\\JavaProjects\\src\\bankaccountapp\\NewBankAccounts.csv";
-		List<String[]> newAccountHolders = utilities.CSV.read(file);
+		String file = "C:\\Users\\Cookie\\myworkspace\\JavaProjects\\src\\bankaccountapp\\NewBankAccounts.csv"; //replace with location of NewBankAccounts.cvs
+		List<String[]> newAccountHolders = bankaccountapp.CSV.read(file);
 		for (String[] accountHolder : newAccountHolders) {
 			String name = accountHolder[0];
 			String sSN = accountHolder[1];
