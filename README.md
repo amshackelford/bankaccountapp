@@ -1,6 +1,6 @@
 ## **Bank Account App** ##
 
-This is a small project that creates checking or savings accounts based on data from a spreadhseet(NewBankAccounts.cvs). Both checking and savings are subclasses of accounting class. IBaseRate contains a method for getting base rate, that method is implemented to Account class and overriden in the subclasses. 
+This is a small project that handles the creation of new customer bank account requests based on data from a spreadhseet (NewBankAccounts.cvs). Savings or Checking accounts are created, and both accounts have the ability deposit, withdraw, transfer, print balance and show basic info along with class specific funtionality.
 
 #### **Classes** #####
 * BankAccountApp - contains main method, reads data from file and puts into string array list.
